@@ -41,8 +41,8 @@ console.log(`Gabungan: ${str}, panjang: ${str.length}`)
 let number = 10
 number = String(number)
 numlen = number.length
-number = Number(number) + 1 
-console.log(`Panjang: ${numlen}, Hasil: ${number}`)
+number = Number(number) 
+console.log(`Hasil: ${number}, Panjang String: ${numlen}, Hasil setelah ditambah ${number + 1}`)
 
 //  NO 3
 let angka = "1"
